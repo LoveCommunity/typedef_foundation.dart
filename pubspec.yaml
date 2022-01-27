@@ -1,0 +1,10 @@
+name: typedef_foundation
+description: common used typedef
+version: 0.0.1
+homepage: https://github.com/LoveCommunity/typedef_foundation.dart
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dev_dependencies: 
+  test: ^1.17.12
