@@ -20,4 +20,14 @@ void main() {
     setter(1);
     expect(_value, 1);
   });
+
+  test('void callback', () {
+    int _value = 0;
+    final VoidCallback callback = () {
+      _value += 1;
+    };
+    expect(_value, 0);
+    callback();
+    expect(_value, 1);
+  });
 }
